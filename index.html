@@ -288,7 +288,8 @@
 
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
+                <form action="https://formsubmit.co/leonhardfriedrich@gmail.com", method="POST">
+                    <input type="hidden" name="_subject" value="New Request">
                     <div class="row">
                         <div class="col-sm-6">
                             <input type="text" name="name" id="name" class="form-control mt-x-0" placeholder="Name" required>
@@ -300,9 +301,8 @@
                             <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
                         </div>
                     </div>
+                    <button href="#hero" class="btn btn-border" type="submit">Send <span class="glyphicon glyphicon-send"></span></button>
                 </form>
-                <button href="#hero" class="btn btn-border" type="submit" onclick="sendMail()">Send <span class="glyphicon glyphicon-send"></span></button>
-                <script src="emailScript.js"></script>
             </div>
         </section><!-- /.section-form -->
 
