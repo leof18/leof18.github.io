@@ -300,6 +300,10 @@ html, body {
     margin: 0 0 15px;
 }
 
+.skill:nth-child(2n+3) h4 {
+    margin-top: 70px; /* Adjust this value as needed */
+}
+
 .progress {
     height: 15px;
     margin-bottom: 0;
@@ -320,7 +324,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/1.jpg) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -486,7 +490,7 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/2.jpg) no-repeat fixed center / cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
